@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ykrcl/Projects/fpga/MemController/MemController.srcs/sources_1/new/FifoBuffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FifoBuffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ykrcl/Projects/fpga/MemController/MemController.srcs/sim_1/new/TestBuffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TestBuffer

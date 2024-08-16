@@ -1,0 +1,4 @@
+Running: xsim.dir/FifoUartCombination_behav/xsimk -simmode gui -wdb FifoUartCombination_behav.wdb -simrunnum 0 -socket 42083
+Design successfully loaded
+Design Loading Memory Usage: 19996 KB (Peak: 20440 KB)
+Design Loading CPU Usage: 70 ms

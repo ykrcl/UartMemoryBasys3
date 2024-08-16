@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 22 2024
+18:54:44
+/home/ykrcl/Projects/fpga/MemController/MemController.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+/home/ykrcl/Projects/fpga/MemController/MemController.srcs/sim_1/new/FifoUartCombination.v,1723722079,verilog,,,,FifoUartCombination,,,,,,,,
+/home/ykrcl/Projects/fpga/MemController/MemController.srcs/sim_1/new/TestBuffer.v,1723711387,verilog,,,,TestBuffer,,,,,,,,
+/home/ykrcl/Projects/fpga/MemController/MemController.srcs/sources_1/new/FifoBuffer.v,1723723815,verilog,,/home/ykrcl/Projects/fpga/MemController/MemController.srcs/sim_1/new/TestBuffer.v,,FifoBuffer,,,,,,,,
+/home/ykrcl/Projects/fpga/MemController/MemController.srcs/sources_1/new/UartRX.v,1723633066,verilog,,/home/ykrcl/Projects/fpga/MemController/MemController.srcs/sim_1/new/FifoUartCombination.v,,UartRX,,,,,,,,
