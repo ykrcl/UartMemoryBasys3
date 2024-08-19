@@ -3,8 +3,8 @@
 # SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Fri Aug 16 10:02:16 2024
-# Process ID: 263878
+# Start of session at: Fri Aug 16 16:49:22 2024
+# Process ID: 436677
 # Current directory: /home/ykrcl/Projects/fpga/MemController/MemController.runs/synth_1
 # Command line: vivado -log MemController.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MemController.tcl
 # Log file: /home/ykrcl/Projects/fpga/MemController/MemController.runs/synth_1/MemController.vds
@@ -13,12 +13,12 @@
 # Platform          :unknown
 # Operating System  :unknown
 # Processor Detail  :Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
-# CPU Frequency     :3103.060 MHz
+# CPU Frequency     :3099.988 MHz
 # CPU Physical cores:2
 # CPU Logical cores :4
 # Host memory       :16617 MB
 # Swap memory       :8589 MB
 # Total Virtual     :25207 MB
-# Available Virtual :12868 MB
+# Available Virtual :11498 MB
 #-----------------------------------------------------------
 source MemController.tcl -notrace

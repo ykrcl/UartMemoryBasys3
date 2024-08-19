@@ -2,3 +2,6 @@ Running: xsim.dir/FifoUartCombination_behav/xsimk -simmode gui -wdb FifoUartComb
 Design successfully loaded
 Design Loading Memory Usage: 19996 KB (Peak: 20440 KB)
 Design Loading CPU Usage: 70 ms
+Simulation completed
+Simulation Memory Usage: 101992 KB (Peak: 159264 KB)
+Simulation CPU Usage: 150 ms

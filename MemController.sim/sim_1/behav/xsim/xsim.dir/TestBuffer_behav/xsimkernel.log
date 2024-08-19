@@ -2,3 +2,6 @@ Running: xsim.dir/TestBuffer_behav/xsimk -simmode gui -wdb TestBuffer_behav.wdb 
 Design successfully loaded
 Design Loading Memory Usage: 19992 KB (Peak: 20440 KB)
 Design Loading CPU Usage: 60 ms
+Simulation completed
+Simulation Memory Usage: 101988 KB (Peak: 159260 KB)
+Simulation CPU Usage: 70 ms

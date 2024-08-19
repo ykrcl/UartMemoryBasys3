@@ -3,8 +3,8 @@
 # SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Fri Aug 16 10:02:16 2024
-# Process ID: 263878
+# Start of session at: Fri Aug 16 16:49:22 2024
+# Process ID: 436677
 # Current directory: /home/ykrcl/Projects/fpga/MemController/MemController.runs/synth_1
 # Command line: vivado -log MemController.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MemController.tcl
 # Log file: /home/ykrcl/Projects/fpga/MemController/MemController.runs/synth_1/MemController.vds
@@ -13,17 +13,17 @@
 # Platform          :unknown
 # Operating System  :unknown
 # Processor Detail  :Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
-# CPU Frequency     :3103.060 MHz
+# CPU Frequency     :3099.988 MHz
 # CPU Physical cores:2
 # CPU Logical cores :4
 # Host memory       :16617 MB
 # Swap memory       :8589 MB
 # Total Virtual     :25207 MB
-# Available Virtual :12868 MB
+# Available Virtual :11498 MB
 #-----------------------------------------------------------
 Sourcing tcl script '/home/ykrcl/.Xilinx/Vivado/Vivado_init.tcl'
 source MemController.tcl -notrace
-create_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1642.078 ; gain = 15.898 ; free physical = 1682 ; free virtual = 11913
+create_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1642.082 ; gain = 11.930 ; free physical = 1385 ; free virtual = 10552
 Command: read_checkpoint -auto_incremental -incremental /home/ykrcl/Projects/fpga/MemController/MemController.srcs/utils_1/imports/synth_1/MemController.dcp
 INFO: [Vivado 12-5825] Read reference checkpoint from /home/ykrcl/Projects/fpga/MemController/MemController.srcs/utils_1/imports/synth_1/MemController.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
@@ -37,9 +37,9 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 264049
+INFO: [Synth 8-7075] Helper process launched with PID 436799
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2404.645 ; gain = 412.715 ; free physical = 584 ; free virtual = 10815
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2404.617 ; gain = 412.715 ; free physical = 438 ; free virtual = 9561
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-10604] concatenation with an unsized literal will be treated as 32 bits [/home/ykrcl/Projects/fpga/MemController/MemController.srcs/sources_1/new/UartTX.v:61]
 INFO: [Synth 8-11241] undeclared symbol 'buffer_f', assumed default net type 'wire' [/home/ykrcl/Projects/fpga/MemController/MemController.srcs/sources_1/new/MemController.v:66]
@@ -56,8 +56,8 @@ INFO: [Synth 8-6155] done synthesizing module 'UartTX' (0#1) [/home/ykrcl/Projec
 INFO: [Synth 8-6157] synthesizing module 'FifoBuffer' [/home/ykrcl/Projects/fpga/MemController/MemController.srcs/sources_1/new/FifoBuffer.v:27]
 INFO: [Synth 8-6155] done synthesizing module 'FifoBuffer' (0#1) [/home/ykrcl/Projects/fpga/MemController/MemController.srcs/sources_1/new/FifoBuffer.v:27]
 WARNING: [Synth 8-689] width (3) of port connection 'data_pointer' does not match port width (2) of module 'FifoBuffer' [/home/ykrcl/Projects/fpga/MemController/MemController.srcs/sources_1/new/MemController.v:111]
-INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [/home/ykrcl/Projects/fpga/MemController/MemController.runs/synth_1/.Xil/Vivado-263878-ykpc/realtime/blk_mem_gen_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (0#1) [/home/ykrcl/Projects/fpga/MemController/MemController.runs/synth_1/.Xil/Vivado-263878-ykpc/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [/home/ykrcl/Projects/fpga/MemController/MemController.runs/synth_1/.Xil/Vivado-436677-ykpc/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (0#1) [/home/ykrcl/Projects/fpga/MemController/MemController.runs/synth_1/.Xil/Vivado-436677-ykpc/realtime/blk_mem_gen_0_stub.v:6]
 INFO: [Synth 8-6157] synthesizing module 'MemoryOutSelector' [/home/ykrcl/Projects/fpga/MemController/MemController.srcs/sources_1/new/MemoryOutSelector.v:23]
 INFO: [Synth 8-226] default block is never used [/home/ykrcl/Projects/fpga/MemController/MemController.srcs/sources_1/new/MemoryOutSelector.v:28]
 INFO: [Synth 8-6155] done synthesizing module 'MemoryOutSelector' (0#1) [/home/ykrcl/Projects/fpga/MemController/MemController.srcs/sources_1/new/MemoryOutSelector.v:23]
@@ -66,18 +66,18 @@ INFO: [Synth 8-6155] done synthesizing module 'MemController' (0#1) [/home/ykrcl
 WARNING: [Synth 8-6014] Unused sequential element command_reg was removed.  [/home/ykrcl/Projects/fpga/MemController/MemController.srcs/sources_1/new/MemController.v:190]
 WARNING: [Synth 8-3917] design MemController has port buffer_ptr[2] driven by constant 0
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2495.613 ; gain = 503.684 ; free physical = 481 ; free virtual = 10713
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2495.586 ; gain = 503.684 ; free physical = 318 ; free virtual = 9447
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2513.426 ; gain = 521.496 ; free physical = 481 ; free virtual = 10713
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2513.398 ; gain = 521.496 ; free physical = 317 ; free virtual = 9447
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2513.426 ; gain = 521.496 ; free physical = 481 ; free virtual = 10713
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2513.398 ; gain = 521.496 ; free physical = 317 ; free virtual = 9447
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2513.426 ; gain = 0.000 ; free physical = 481 ; free virtual = 10713
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2513.398 ; gain = 0.000 ; free physical = 317 ; free virtual = 9447
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -91,16 +91,19 @@ Finished Parsing XDC File [/home/ykrcl/Projects/fpga/MemController/MemController
 Parsing XDC File [/home/ykrcl/Projects/fpga/MemController/MemController.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'memory_4'
 Finished Parsing XDC File [/home/ykrcl/Projects/fpga/MemController/MemController.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'memory_4'
 Parsing XDC File [/home/ykrcl/Projects/fpga/MemController/MemController.srcs/constrs_1/new/bas3.xdc]
+WARNING: [Vivado 12-508] No pins matched 'clk_div/tx_clk'. [/home/ykrcl/Projects/fpga/MemController/MemController.srcs/constrs_1/new/bas3.xdc:6]
+WARNING: [Vivado 12-508] No pins matched 'clk_div/rx_clk'. [/home/ykrcl/Projects/fpga/MemController/MemController.srcs/constrs_1/new/bas3.xdc:10]
 Finished Parsing XDC File [/home/ykrcl/Projects/fpga/MemController/MemController.srcs/constrs_1/new/bas3.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/ykrcl/Projects/fpga/MemController/MemController.srcs/constrs_1/new/bas3.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/MemController_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ykrcl/Projects/fpga/MemController/MemController.srcs/constrs_1/new/bas3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/MemController_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/MemController_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2656.176 ; gain = 0.000 ; free physical = 478 ; free virtual = 10710
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2656.148 ; gain = 0.000 ; free physical = 295 ; free virtual = 9423
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2656.176 ; gain = 0.000 ; free physical = 478 ; free virtual = 10710
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2656.148 ; gain = 0.000 ; free physical = 295 ; free virtual = 9423
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'memory_1' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'memory_2' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'memory_3' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
@@ -108,14 +111,14 @@ WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context s
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2656.176 ; gain = 664.246 ; free physical = 473 ; free virtual = 10705
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2656.148 ; gain = 664.246 ; free physical = 210 ; free virtual = 9332
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2656.176 ; gain = 664.246 ; free physical = 473 ; free virtual = 10705
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2656.148 ; gain = 664.246 ; free physical = 210 ; free virtual = 9332
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -125,7 +128,7 @@ Applied set_property KEEP_HIERARCHY = SOFT for memory_2. (constraint file  auto 
 Applied set_property KEEP_HIERARCHY = SOFT for memory_3. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for memory_4. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2656.176 ; gain = 664.246 ; free physical = 473 ; free virtual = 10705
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2656.148 ; gain = 664.246 ; free physical = 210 ; free virtual = 9332
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'UartRX'
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'UartTX'
@@ -162,7 +165,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'MemController'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2656.176 ; gain = 664.246 ; free physical = 473 ; free virtual = 10706
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2656.148 ; gain = 664.246 ; free physical = 208 ; free virtual = 9332
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -220,25 +223,25 @@ Start Cross Boundary and Area Optimization
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 WARNING: [Synth 8-3917] design MemController has port buffer_ptr[2] driven by constant 0
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2656.176 ; gain = 664.246 ; free physical = 450 ; free virtual = 10688
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 2656.148 ; gain = 664.246 ; free physical = 304 ; free virtual = 9319
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 2656.176 ; gain = 664.246 ; free physical = 450 ; free virtual = 10688
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 2656.148 ; gain = 664.246 ; free physical = 336 ; free virtual = 9349
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 2656.176 ; gain = 664.246 ; free physical = 449 ; free virtual = 10686
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 2656.148 ; gain = 664.246 ; free physical = 337 ; free virtual = 9349
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 2656.176 ; gain = 664.246 ; free physical = 449 ; free virtual = 10686
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 2656.148 ; gain = 664.246 ; free physical = 338 ; free virtual = 9351
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -256,37 +259,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2656.176 ; gain = 664.246 ; free physical = 449 ; free virtual = 10686
+Finished IO Insertion : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 2656.148 ; gain = 664.246 ; free physical = 325 ; free virtual = 9355
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2656.176 ; gain = 664.246 ; free physical = 449 ; free virtual = 10686
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 2656.148 ; gain = 664.246 ; free physical = 325 ; free virtual = 9355
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2656.176 ; gain = 664.246 ; free physical = 449 ; free virtual = 10686
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 2656.148 ; gain = 664.246 ; free physical = 325 ; free virtual = 9355
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2656.176 ; gain = 664.246 ; free physical = 449 ; free virtual = 10686
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 2656.148 ; gain = 664.246 ; free physical = 325 ; free virtual = 9355
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2656.176 ; gain = 664.246 ; free physical = 449 ; free virtual = 10686
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 2656.148 ; gain = 664.246 ; free physical = 325 ; free virtual = 9355
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2656.176 ; gain = 664.246 ; free physical = 449 ; free virtual = 10686
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 2656.148 ; gain = 664.246 ; free physical = 325 ; free virtual = 9355
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -319,29 +322,29 @@ Report Cell Usage:
 |16    |OBUF          |     7|
 +------+--------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2656.176 ; gain = 664.246 ; free physical = 449 ; free virtual = 10686
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 2656.148 ; gain = 664.246 ; free physical = 325 ; free virtual = 9355
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2656.176 ; gain = 521.496 ; free physical = 449 ; free virtual = 10686
-Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2656.184 ; gain = 664.246 ; free physical = 449 ; free virtual = 10686
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 2656.148 ; gain = 521.496 ; free physical = 325 ; free virtual = 9353
+Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 2656.156 ; gain = 664.246 ; free physical = 325 ; free virtual = 9353
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2656.184 ; gain = 0.000 ; free physical = 449 ; free virtual = 10686
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2656.156 ; gain = 0.000 ; free physical = 322 ; free virtual = 9351
 INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2656.184 ; gain = 0.000 ; free physical = 640 ; free virtual = 10877
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2656.156 ; gain = 0.000 ; free physical = 605 ; free virtual = 9633
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: 30b1ea95
+Synth Design complete | Checksum: 8ca49c41
 INFO: [Common 17-83] Releasing license: Synthesis
-48 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+48 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:39 . Memory (MB): peak = 2656.184 ; gain = 998.262 ; free physical = 641 ; free virtual = 10878
-INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2009.215; main = 1618.704; forked = 439.929
-INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4393.320; main = 2656.180; forked = 1737.141
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2680.188 ; gain = 0.000 ; free physical = 641 ; free virtual = 10878
+synth_design: Time (s): cpu = 00:00:50 ; elapsed = 00:00:47 . Memory (MB): peak = 2656.156 ; gain = 998.230 ; free physical = 605 ; free virtual = 9633
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1988.910; main = 1658.188; forked = 400.941
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4328.938; main = 2656.152; forked = 1672.785
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2680.160 ; gain = 0.000 ; free physical = 605 ; free virtual = 9633
 INFO: [Common 17-1381] The checkpoint '/home/ykrcl/Projects/fpga/MemController/MemController.runs/synth_1/MemController.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file MemController_utilization_synth.rpt -pb MemController_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Aug 16 10:03:14 2024...
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 16 16:50:27 2024...

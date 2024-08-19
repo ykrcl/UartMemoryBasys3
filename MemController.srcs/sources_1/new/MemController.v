@@ -73,7 +73,7 @@ module MemController(
 
     assign fifo_write = recieve_end;
 
-    ClockDiv(
+    ClockDiv clk_div(
         .clk(clk),
         .reset(reset),
         .clk_tx_uart_out(tx_clk),
